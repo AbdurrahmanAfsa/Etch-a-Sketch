@@ -8,6 +8,10 @@ body{
     background-color: rgb(102, 221, 102);
 }
 
+.welcome{
+    font-size: 36px;
+}
+
 .container{
     height: 635px;
     width: 635px;
