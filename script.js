@@ -11,4 +11,8 @@ button.addEventListener("click" , () => {
             square.style.cssText = "background-color: black;"
         });
     }
+    container.style.cssText = `
+        grid-template-columns: repeat(${sqaureNumber}, 1fr [col-start]);
+        grid-template-rows: repeat(${sqaureNumber}, 1fr [row-start]);
+    `
 })
