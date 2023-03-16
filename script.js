@@ -2,6 +2,7 @@ let container = document.querySelector('.container');
 let button = document.querySelector('.button');
 
 button.addEventListener("click" , () => {
+    container.textContent = "";
     let sqaureNumber = parseInt(prompt("How many sqares per side do you like?"));
 
     for (i = 0; i < sqaureNumber*sqaureNumber ; i++){
